@@ -1,3 +1,5 @@
+block TracoParametersBlock = {
+
 PSet TracoParameters = {
 
   untracked int32 Debug    = 0             # Debug flag
@@ -40,3 +42,5 @@ PSet TracoParameters = {
   int32 KPRGCOM	= 255		# bending angle cut for all stations and triggers
   int32 LVALIDIFH = 0		# flag for Low validation parameter
 }	
+
+}
